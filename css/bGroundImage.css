@@ -1,0 +1,162 @@
+/* COMMON DEMO STYLE */
+.page-view {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page-view .project {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-view .project:nth-child(1) {
+  z-index: 20;
+}
+.arrowsH{
+  display: none;
+}
+.arrow{
+  width: 80px;
+  height: 80px;
+}
+.previous{
+  position: absolute;
+  top:  45vh;
+  left: 18vw;
+  z-index: 51;
+}
+.next{
+  position: absolute;
+  top:  45vh;
+  right: 18vw;
+  z-index: 51;
+}
+.arrows .arrow:hover.previous {
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transform: translate3d(-5px, 0, 0);
+          transform: translate3d(-5px, 0, 0);
+}
+
+ .arrows .arrow:hover.next {
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-transform: translate3d(5px, 0, 0) rotate(0deg);
+          transform: translate3d(5px, 0, 0) rotate(0deg);
+}
+
+ .arrows .arrow svg {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+  margin: 0 0;
+}
+
+ .arrows .arrow svg polygon {
+  fill: #CAF903;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .next{
+    top: 70vh;
+  }
+  .previous{
+    top: 70vh;
+  }
+  .arrow{
+    width: 50px;
+    height: 50px;
+  }
+
+ .arrows .arrow svg {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+
+  }
+}
+
+@-webkit-keyframes mask-play {
+  from {
+    -webkit-mask-position: 0% 0;
+            mask-position: 0% 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+            mask-position: 100% 0;
+  }
+}
+
+@keyframes mask-play {
+  from {
+    -webkit-mask-position: 0% 0;
+            mask-position: 0% 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+            mask-position: 100% 0;
+  }
+}
+
+
+/* SPECIFIC DEMO STYLE */
+/* DEMO 3 */
+.demo-3 {
+  background: url(../img/urban-sprite.png) no-repeat -9999px -9999px;
+}
+
+/*.demo-3 .page-view {
+  background: url(../img/urban-sprite-2.png) no-repeat -9999px -9999px;
+}*/
+
+.demo-3 .page-view .project:nth-child(1) {
+  background-image: url(../img/urban-1.jpg);
+}
+
+.demo-3 .page-view .project:nth-child(2) {
+  background-image: url(../img/urban-2.jpg);
+}
+
+.demo-3 .page-view .project:nth-child(3) {
+  background-image: url(../img/urban-3.jpg);
+}
+
+.demo-3 .page-view .project:nth-child(4) {
+  background-image: url(../img/urban-4.jpg);
+}
+
+.demo-3 .page-view .project:nth-child(odd).hide {
+  -webkit-mask: url(../img/urban-sprite.png);
+          mask: url(../img/urban-sprite.png);
+  -webkit-mask-size: 3000% 100%;
+          mask-size: 3000% 100%;
+  -webkit-animation: mask-play 1.4s steps(29) forwards;
+          animation: mask-play 1.4s steps(29) forwards;
+}
+
+.demo-3 .page-view .project:nth-child(even).hide {
+  -webkit-mask: url(../img/urban-sprite.png);
+          mask: url(../img/urban-sprite.png);
+  -webkit-mask-size: 3000% 100%;
+          mask-size: 3000% 100%;
+  -webkit-animation: mask-play 1.4s steps(29) forwards;
+          animation: mask-play 1.4s steps(29) forwards;
+}
+
+/* Fallback */
+.no-cssmask .page-view .project.hide {
+  opacity: 0;
+  -webkit-transition: opacity 1.4s ease;
+          transition: opacity 1.4s ease;
+  -webkit-mask: none !important;
+          mask: none !important;
+}

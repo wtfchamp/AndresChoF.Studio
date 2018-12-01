@@ -1,0 +1,80 @@
+  .loading{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .initContent{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: calc(50vh - 50px) auto;
+  }
+  .svgLogo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  .divNombre{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 24px;
+    left: 0;
+  }
+  .svgStyleLogo{
+    width: 100%;
+    height: 100%;
+  }
+  .st2{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+  }
+  .circleFill{
+    fill: #fff !important;
+    stroke-width: 1.5px !important;
+  }
+  .st3{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+  }
+  .svgName{
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 40px;
+    margin: 0vh auto;
+  }
+  .svgStyleName{
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+  }
+  .svgStudio{
+    position: absolute;
+    z-index: 1;
+    top: 19px;
+    width: 40px;
+    height: 30px;
+    margin: 0 0 auto;
+  }
+  .svgStyleStudio {
+    width: 100%;
+    height: 100%;
+    fill: none !important;
+    stroke: #fff !important;
+    stroke-width: 1px;
+  }
+  .dotSVGContinue{
+    position: absolute;
+    bottom: 3.2px;
+    left: 17.5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+  }

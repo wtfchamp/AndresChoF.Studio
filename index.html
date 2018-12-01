@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/stylePage.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMenu.css">
+    <link rel="stylesheet" type="text/css" href="css/portFolioStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bGroundImage.css">
+    <link rel="stylesheet" type="text/css" href="css/formStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/slidePortfolio.css">
+    <link rel="stylesheet" type="text/css" href="css/slideFreebies.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <script src="js/modernizr.custom.js" charset="utf-8"></script>
+    <script src="js/anime.min.js" charset="utf-8"></script>
+    <title>Andres Cholula Flores</title>
+  </head>
+  <!--
+  Background effects "CSS Mask transition" by Robin Delaporte https://tympanus.net/Tutorials/CSSMaskTransition/index3.html
+  Effect background aboutMe "Developer Designer Page layout Concept" by Mary Lou https://tympanus.net/Development/DeveloperDesignerPageLayout/
+  Button effects "Icon Animations powered by mo.js" by Mary Lou https://tympanus.net/Development/Animocons/
+  Portfolio items effect "Stack Motion Hover Effects" by Mary Lou https://tympanus.net/Development/StackMotionHoverEffects/
+  Portfolio details slide "Elastic Circle Slide Show" by Mary Lou https://tympanus.net/Development/ElasticCircleSlideshow/
+  Contact effects "FullScreenForm" by  Mary Lou https://tympanus.net/Development/FullscreenForm/
+  -->
+  <body>
+    <div id="initLoad " class="loading ">
+      <div class="initContent" style="opacity: 0;">
+        <div id="logoDiv" class="svgLogo">
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg id="logoLoad" class="svgStyleLogo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42 61.4">
+          <!--style type="text/css">
+          	.st2{fill:none; stroke: white; stroke-width: 0.2px; }
+          </style-->
+          <g class="circleG1">
+            <circle class="st2 circleFill" cx="3.5" cy="57" r="1.7"/>
+            <circle class="st2 circleFill" cx="38.5" cy="57" r="1.7"/>
+          </g>
+          <g class="lineG">
+            <polyline class="st2" points="3.4,52.8 3.4,41.7 20.9,41.7 "/>
+            <polyline class="st2" points="38.5,52.8 38.5,41.7 20.9,41.7 "/>
+          </g>
+          <g class="lineG">
+            <line class="st2" x1="21" y1="52.9" x2="21" y2="10.7"/>
+          </g>
+          <g class="lineG">
+            <line class="st2" x1="20.9" y1="33.9" x2="1.9" y2="33.9"/>
+            <line class="st2" x1="21" y1="33.9" x2="40.1" y2="33.9"/>
+          </g>
+          <g class="lineG">
+            <line class="st2" x1="21" y1="31.5" x2="35.1" y2="17.3"/>
+            <line class="st2" x1="21" y1="31.5" x2="6.9" y2="17.3"/>
+          </g>
+          <g class="circleG6">
+            <circle class="st2 circleFill" cx="38.5" cy="12.9" r="1.7"/>
+            <circle class="st2 circleFill" cx="21" cy="4.5" r="1.7"/>
+            <circle class="st2 circleFill" cx="3.6" cy="12.9" r="1.7"/>
+          </g>
+          </svg>
+          <div class="dotSVGContinue">
+          </div>
+        </div>
+        <div class="divNombre">
+          <div id="svgName" class="svgName">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg id="nameLoad" class="svgStyleName" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 33">
+            <!--style type="text/css">
+            	.st3{fill:none; stroke: white; stroke-width: 0.2px; }
+              .st4{fill:none; stroke: white; stroke-width: 0.2px; }
+            </style-->
+            <g id="Capa_1_1_" class="st">
+            	<polyline class="st3" points="1.2,20.3 8,2.7 8.2,2.7 14.9,20.3 	"/>
+            	<line class="st3" x1="3.4" y1="15" x2="12.9" y2="15"/>
+            	<line class="st3" x1="18.8" y1="20.3" x2="18.8" y2="8.3"/>
+            	<path class="st3" d="M18.8,13.2c0,0,0.8-4.3,4.8-4.3c3.8,0,3.8,3.7,3.8,3.7v7.7"/>
+              <path class="st3" d="M43.6,14.3c0-2.1-1.5-5.5-5.5-5.5s-5.5,3.1-5.5,5.5s1.6,5.5,5.5,5.5C41,19.8,43.6,17.5,43.6,14.3"/>
+            	<line class="st3" x1="43.7" y1="20.3" x2="43.7" y2="1.4"/>
+            	<path class="st3" d="M55.8,9c-4-1-6.1,2.2-6.1,4.9"/>
+            	<line class="st3" x1="49.7" y1="20.3" x2="49.7" y2="8.3"/>
+            	<path class="st3" d="M57.8,14.2H68c0,0,0.1-5.4-5-5.4c-4.8,0-5.5,4-5.5,5.6s0.9,5.4,5.6,5.4c2.9,0,4.4-1.8,4.9-2.6"/>
+              <path class="st3" d="M71.6,17c0,1.1,0.9,2.8,3.5,2.8s3.6-1.3,3.7-2.6c0-1.2-0.3-2.5-2.9-3.1c-2.3-0.5-3.5-1-3.4-2.9s1.8-2.4,3.2-2.4s2.8,0.3,2.9,2.2"/>
+              <path class="st3" d="M104.4,16.8c-1.4,1.7-3.3,3-6.1,3c-3.9,0-8.2-2.5-8.4-8.1c-0.2-6.5,4.4-9.2,7.2-9.5c2.8-0.3,5.3,0.7,7.2,2.8"/>
+            	<line class="st3" x1="108.7" y1="20.3" x2="108.7" y2="1.4"/>
+            	<path class="st3" d="M108.7,11.5c0,0,1.5-3,5-2.8c3.5,0.1,3.6,3.1,3.6,3.9c0,0.8,0,7.7,0,7.7"/>
+            	<path class="st3" d="M127.9,19.8c2.1,0,5.5-1.5,5.5-5.5s-3.1-5.5-5.5-5.5c-2.4,0-5.5,1.6-5.5,5.5C122.5,17.2,124.7,19.8,127.9,19.8"/>
+              <line class="st3" x1="138" y1="20.3" x2="138" y2="1.4"/>
+              <line class="st3" x1="152.8" y1="20.3" x2="152.8" y2="8.3"/>
+              <path class="st3" d="M152.8,15.3c0,0-1.2,4.3-5.1,4.3c-3.6,0-3.9-3.3-3.9-4.5c0-1.3,0-6.7,0-6.7"/>
+            	<line class="st3" x1="158.5" y1="20.3" x2="158.5" y2="1.4"/>
+              <path class="st3" d="M174.9,14.3c0-2.1-1.5-5.5-5.4-5.5s-5.5,3.1-5.5,5.5s1.6,5.5,5.5,5.5C172.3,19.8,174.9,17.5,174.9,14.3"/>
+            	<line class="st3" x1="175.3" y1="20.3" x2="175.3" y2="7.7"/>
+            	<line class="st3" x1="190.9" y1="20.3" x2="190.9" y2="1.4"/>
+            	<line class="st3" x1="190.9" y1="1.9" x2="186.1" y2="1.9"/>
+            	<line class="st3" x1="190.9" y1="1.9" x2="195.7" y2="1.9"/>
+            	<line class="st3" x1="190.9" y1="11.6" x2="186.1" y2="11.6"/>
+            	<line class="st3" x1="190.9" y1="11.6" x2="195.7" y2="11.6"/>
+              <circle class="st3" cx="199.4" cy="19.5" r="0.8"/>
+            </g>
+            </svg>
+          </div>
+          <div id="logoStudio" class="svgStudio">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg class="svgStyleStudio"version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40.5 14.3">
+            <g>
+            	<path class="st4" d="M4.8,4C4,3,3.3,2.5,2.1,2.7c-1.3,0.2-2,1.8-1.3,2.8c0.6,0.9,1.3,1.2,2.3,1.6c1,0.5,2.5,1.4,2.3,3
+            		c-0.2,1.5-1.4,2.1-2.8,2C0.7,12,0,10.4,0,10.4"/>
+            	<path class="st4" d="M11.4,11.7c-0.4,0.3-0.7,0.5-1.1,0.5S9.2,12,9.2,11s0-7.6,0-7.6"/>
+            	<line class="st4" x1="9.2" y1="6.8" x2="8.1" y2="6.8"/>
+            	<line class="st4" x1="9.2" y1="6.8" x2="11.2" y2="6.8"/>
+            	<path class="st4" d="M14.4,6.4c0,0.5,0,3.3,0,3.9s0.1,1.9,2.1,1.9s2.4-1.9,2.4-1.9"/>
+            	<line class="st4" x1="18.9" y1="12.4" x2="18.9" y2="6.4"/>
+            	<path class="st4" d="M24.9,12.2c1.1,0,2.5-0.8,2.5-2.7S26,6.8,24.7,6.8s-2.6,0.8-2.6,2.8C22.1,11.7,23.8,12.2,24.9,12.2"/>
+            	<line class="st4" x1="27.5" y1="12.4" x2="27.5" y2="2"/>
+            	<line class="st4" x1="31.4" y1="12.4" x2="31.4" y2="6.5"/>
+            	<circle class="st4" cx="31.4" cy="3.9" r="0.5"/>
+            	<path class="st4" d="M37.5,12.2c1,0,2.6-0.5,2.5-2.8c0-2-1.6-2.6-2.7-2.6c-0.9,0-2.8,0.6-2.7,2.8C34.7,11.7,36.7,12.2,37.5,12.2"/>
+            </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="init noDisplay">
+      <!--Background-->
+      <div class="demo-3">
+        <div id="backImage" class="page-view">
+          <div class="project">
+          </div>
+          <div class="project">
+          </div>
+          <div class="project">
+          </div>
+          <div class="project">
+          </div>
+          <nav id="arrowsNav" class="arrows">
+            <div class="arrow previous">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 69.2 134.1">
+              	<polygon class="" points="67.1,134.1 0,67.1 67.1,0 69.2,2.1 4.2,67.1 69.2,132 				"/>
+              </svg>
+            </div>
+            <div class="arrow next">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 69.2 134.1">
+              	<polygon class="" points="2.1,134.1 69.2,67.1 2.1,0 0,2.1 64.9,67.1 0,132 				"/>
+              </svg>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Menu items-->
+      <div id="menuDisplay" class="menuDisplay noDisplay">
+      </div>
+      <button id="btnClose"class="menuCross noDisplay"></button>
+      <div id="menuItems" class="menuItems noDisplay">
+        <nav class="navClass">
+          <ol>
+            <li id="Me" class="liClass">Me</li>
+            <li id="Portafolio" class="liClass">Portfolio</li>
+            <li id="Contacto" class="liClass">Contact</li>
+            <li id="Freebies" class="liClass">Freebies</li>
+          </ol>
+        </nav>
+      </div>
+      <!--Main content-->
+      <div class="pieces-back noDisplay">
+        <div class="pieces" style="background-image: url(img/normal.jpg)">
+        </div>
+      </div>
+      <div class="main-Content">
+        <button class="icobuttonH icobutton--heart" type="button" name="button"><span class="fa fa-heart"></span> </button>
+        <div id="div1" class="headerDiv">
+          <div  class="innerDiv1">
+              <button id="btnMenu" type="button" name="button" class="buttonMenu">
+                <span class="btnMenu"></span>
+                <span class="btnMenu"></span>
+                <span class="btnMenu"></span>
+              </button>
+          </div>
+          <div class="innerDiv2">
+            <ul class="innerUL noth">
+              <li><h1>Tu Marca ! ! !</h1></li>
+              <li><h2>Yo Diseño ! ! !</h2></li>
+            </ul>
+          </div>
+          <div class="innerDiv3 innerIMG">
+            <button class="MainPage" type="button" name="button" title="Main Page">
+              <img class="imgStyle" src="img/logo.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <div id="div2" class="mainDiv">
+          <div class="inner-Div1">
+          </div>
+          <div id="mainContent" class="innerDiv2 overflowStyle">
+            <!--aboutMe-->
+            <section id="aboutMe" class="aboutMe noDisplay">
+              <img src="img/me.svg" alt="">
+              <img src="img/meLogo.svg" alt="">
+              <h1>25 Años |  Diseñador | Poblano | UPAEP | School of Motion</h1>
+              <p>Apasionado por el diseño, el arte y los negocios en todas sus vertientes.</p><br>
+              <p>Andres Cholula Studio se establece como la ayuda perfecta, para cualquier negocio, proyecto, emprendedor, con necesidades únicas de calidad gráfica.<br>Necesarias para distinguirse frente a su competencia y clientes!!!</p>
+            </section>
+            <!--portfolio-->
+            <section id="portFolio" class="noDisplay">
+              <div class="tittle">
+                Portfolio
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/1.png" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="grid grid--effect-rigel">
+                <a class="grid__item grid__item--c1">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c2">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+                <a class="grid__item grid__item--c3">
+                  <div  class="stack">
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__deco"></div>
+                    <div class="stack__figure">
+                      <img class="stack__img" src="img/ENCARCOM.svg" alt="Image"/>
+                    </div>
+                  </div>
+                  <div class="grid__item-caption">
+                    <h3 class="grid__item-title">encarcom</h3>
+                    <div class="column column--left">
+                      <span class="column__text">Period</span>
+                      <span class="column__text">Subjects</span>
+                      <span class="column__text">Result</span>
+                    </div>
+                    <div class="column column--right">
+                      <span class="column__text">2045</span>
+                      <span class="column__text">133456</span>
+                      <span class="column__text">Positive</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </section>
+            <!--slidePortfolio-->
+            <section id="slidePortFolio" class="fullScreenSlide noDisplay">
+              <button id="closeSlide" class="slideClose" aria-label="Close"><img src="img/close.svg" alt=""></button>
+              <div id="slideshow" class="slideshow">
+                <div class="slide slide--current">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/urban-1.jpg" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide__item">
+                    <div class="slide__inner">
+                      <img class="slide__img slide__img--small" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg class="dots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.3 14.2">
+                  <circle id="Circle1" class="st1" cx="9.4" cy="7.1" r="6.5"/>
+                  <circle id="Circle2" class="st1" cx="104.1" cy="7.1" r="6.5"/>
+                  <circle id="Circle3" class="st1" cx="198.7" cy="7.1" r="6.5"/>
+                  <circle id="Circle4" class="st1" cx="293.4" cy="7.1" r="6.5"/>
+                  <circle id="Circle5" class="st1" cx="388.1" cy="7.1" r="6.5"/>
+                  <circle id="Circle6" class="st1" cx="482.8" cy="7.1" r="6.5"/>
+                </svg>
+              </div>
+            </section>
+            <!--contact-->
+            <section id="fs-form-wrap" class="fs-form-wrap noDisplay">
+              <div class="tittleC">
+                Contacto
+              </div>
+              <form id="myform" class="fs-form fs-form-full" autocomplete="nope">
+                <ol class="fs-fields">
+                  <li>
+                    <label class="fs-field-label fs-anim-upper" for="q1">Cuál es tu nombre?</label>
+                    <input id="q1" class="fs-anim-lower" type="text" name="q1" placeholder="Andres Cholula Flores" autocomplete="nope" required/>
+                  </li>
+                  <li>
+                    <label class="fs-field-label fs-anim-upper" for="q2" data-info="we won´t send you spam, we promise...">Cuál es tu e-mail?</label>
+                    <input class="fs-anim-lower" id="q2" type="email" name="q2" placeholder="e-mail@email.com" autocomplete="nope" required/>
+                  </li>
+                  <li data-input-trigger>
+                    <label class="fs-field-label fs-anim-upper" for="q3" data-info="This will help us know what kind of service you need">Qué servicio de diseño requiere?</label>
+                    <div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+                      <span><input id="q3a" name="q3" type="checkbox" value="Imagen Corporativa"/><label for="q3a" class="radio-conversion">Imagen Corporativa</label></span>
+                      <span><input id="q3b" name="q3" type="checkbox" value="Banner Animado"/><label for="q3b" class="radio-social">Banner Animado</label></span>
+                      <span><input id="q3c" name="q3" type="checkbox" value="Publicidad"/><label for="q3c" class="radio-mobile">Publicidad</label></span>
+                      <span><input id="q3d" name="q3" type="checkbox" value="Ilustración"/><label for="q3d" class="radio-conversion">Ilustración</label></span>
+                    </div>
+                    <div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+                      <span><input id="q3e" name="q3" type="checkbox" value="Rediseño (nueva imagen)"/><label for="q3e" class="radio-social">Rediseño</label></span>
+                      <span><input id="q3f" name="q3" type="checkbox" value="Tarjetas Publicitarias"/><label for="q3f" class="radio-mobile">Tarjetas publicitarias</label></span>
+                      <span><input id="q3g" name="q3" type="checkbox" value="Comercial Animado"/><label for="q3g" class="radio-social">Comercial Animado</label></span>
+                      <span><input id="q3h" name="q3" type="checkbox" value="Otras no mencionadas"/><label for="q3h" class="radio-mobile">Otro</label></span>
+                    </div>
+                  </li>
+                  <li>
+                    <label class="fs-field-label fs-anim-upper" for="q4">Descripción empresa o proyecto</label>
+                    <textarea class="fs-anim-lower" id="q4" name="q4" placeholder="Nombre, tiempo & Giro empresarial o nuevo proyecto. Razones del proyecto." autocomplete="nope"></textarea>
+                  </li>
+                  <li data-input-trigger>
+                    <label class="fs-field-label fs-anim-upper" for="q5" data-info="This will help us know what kind of service you need">Cómo supiste de mis servicios?</label>
+                    <div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+                      <span><input id="q5a" name="q5" type="checkbox" value="Redes Sociales"/><label for="q5a" class="radio-conversion">Redes Sociales</label></span>
+                      <span><input id="q5b" name="q5" type="checkbox" value="Amigos o familiares"/><label for="q5b" class="radio-social">Amigos o familiares</label></span>
+                      <span><input id="q5c" name="q5" type="checkbox" value="Otros clientes"/><label for="q5c" class="radio-mobile">Otros clientes</label></span>
+                    </div>
+                    <div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+                      <span><input id="q5d" name="q5" type="checkbox" value="Una visión"/><label for="q5d" class="radio-conversion">Una visión</label></span>
+                      <span><input id="q5e" name="q5" type="checkbox" value="Google"/><label for="q5e" class="radio-social">Google</label></span>
+                      <span><input id="q5f" name="q5" type="checkbox" value="Personalmente"/><label for="q5f" class="radio-mobile">Personalmente</label></span>
+                    </div>
+                  </li>
+                </ol>
+                <button class="fs-submit" type="submit">Enviar</button>
+              </form>
+            </section>
+            <!--freebies-->
+            <section id="freebies" class="fullViewF noDisplay">
+              <div class="tittleF">
+                Freebies
+              </div>
+              <div id="slideshowF" class="slideshowF">
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/urban-1.jpg" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="slideF">
+                  <div class="slide__itemF">
+                    <div class="slide__innerF">
+                      <img class="slide__imgF slide__img--smallF" src="img/1.png" alt="Some Image">
+                    </div>
+                  </div>
+                </div>
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg class="dotsF" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.3 14.2">
+                  <circle id="Circle1" class="st1F" cx="9.4" cy="7.1" r="6.5"/>
+                  <circle id="Circle2" class="st1F" cx="104.1" cy="7.1" r="6.5"/>
+                  <circle id="Circle3" class="st1F" cx="198.7" cy="7.1" r="6.5"/>
+                  <circle id="Circle4" class="st1F" cx="293.4" cy="7.1" r="6.5"/>
+                  <circle id="Circle5" class="st1F" cx="388.1" cy="7.1" r="6.5"/>
+                  <circle id="Circle6" class="st1F" cx="482.8" cy="7.1" r="6.5"/>
+                </svg>
+              </div>
+            </section>
+          </div>
+          <div class="innerDiv3">
+            <ol class="Grid">
+              <li class="grid__Item">
+                <button class="icobutton icobutton--instagram"><span class="fa fa-instagram"></span></button>
+              </li>
+              <li class="grid__Item">
+                <button class="icobutton icobutton--thumbs-up"><span class="fa fa-behance"></span></button>
+              </li>
+              <li class="grid__Item">
+                <button class="icobutton icobutton--thumbs-up"><span class="fa fa-vimeo"></span></button>
+              </li>
+              <li class="grid__Item">
+                <button class="icobutton icobutton--thumbs-up"><span class="fa fa-youtube"></span></button>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div id="div3" class="footerDiv">
+          <div class="footerNameDiv1 noth">
+            <a id="label1" class="">Andres Cholula Flores</a>
+          </div>
+          <div class="footerMidDiv noth">
+            <a id="label2" class="" name="label">Desing | Animation | Publicity | Ilustration</a>
+          </div>
+          <div class="footerNameDiv2 noth">
+            <a class="">@andreschof/Studio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/classie.js" charset="utf-8"></script>
+    <script src="js/dynamics.min.js" charset="utf-8"></script>
+    <script src="js/zepto.min.js" charset="utf-8"></script>
+    <script src="js/imagesloaded.pkgd.min.js" charset="utf-8"></script>
+    <script src="js/mo.min.js" charset="utf-8"></script>
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/fullscreenForm.js" charset="utf-8"></script>
+    <script src="js/pageMain.js" charset="utf-8"></script>
+    <script src="js/slidePortfolio.js" charset="utf-8"></script>
+    <script src="js/portfolioEffect.js" charset="utf-8"></script>
+    <script src="js/backGImage.js" charset="utf-8"></script>
+    <script src="js/pieces.js" charset="utf-8"></script>
+    <script src="js/btnRedes.js" charset="utf-8"></script>
+    <script src="js/slideFreebies.js" charset="utf-8"></script>
+    <script src="js/loading.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      (function() {
+        var formWrap = document.getElementById('fs-form-wrap');
+
+        new FForm(formWrap, {
+          onReview : function() {
+            classie.add(document.body, 'overview');
+          }
+        });
+      })();
+      (function() {
+        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+          new RigelFx(stackEl);
+        });
+        document.documentElement.className = 'js';
+        var slideshow = new CircleSlideshow(document.getElementById('slideshow'));
+        var slideFreebies = new CircleSlideshowF(document.getElementById('slideshowF'));
+      })();
+      $(document).ready(function() {
+        var w = $(window).width();
+        if (w < 920) {
+          document.getElementById('label1').textContent = "Andres Cholula F.";
+          document.getElementById('label2').textContent = "D  |  A  |  P  |  I";
+        } else {
+          document.getElementById('label1').textContent = "Andres Cholula Flores";
+          document.getElementById('label2').textContent = "Desing | Animation | Publicity | Ilustration";
+        }
+      });
+    </script>
+  </body>
+</html>
